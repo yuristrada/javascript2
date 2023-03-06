@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>dasafio 3</title>
+
+</head>
+
+<body>
+    <script>
+        var b = prompt("Digite o numero de eleitores.")
+        b = parseInt(b)
+
+        var c1 = 0
+        var c2 = 0
+        var c3 = 0
+        for (var i = 1; i <= b; i++) {
+            var a = prompt("Digite o em qual vc quer votar, (1)  (2) ou(3)")
+
+
+            if (a == 1) {
+                c1 += 1
+            } else if (a == 2) {
+                c2 += 1
+            } else if (a == 3) {
+                c3 += 1
+            } else {
+                alert("Digite um valor válido.")
+            }
+        }
+        alert("Números de votos de cada um, candidato 1: " + c1 + "\n" + " candidato 2: " + c2 + "\n" + " candidato 3: " + c3)
+    </script>
+</body>
+
+</html>

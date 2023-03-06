@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+       <meta charset="utf-8"/>
+       <title>Javascript</title>
+   </head>
+   <body>
+       <script>
+        var n1,n2,soma,nov
+        var cont=0
+        while(cont<=1){
+            n1=prompt("Informe um valor")
+            n1=parseFloat(n1)
+            n2=prompt("Informe o segundo valor")  
+            n2=parseFloat(n2)
+
+            soma=(n1+n2)
+            
+            alert("Soma é "+soma )
+
+            nov=prompt("Se deseja realizar novamente digite (s), e (n) para nao realizar novamente")
+                if(nov=='s'){
+                    cont=0
+                    cont++
+                }else{
+                    cont++
+                }
+
+            
+        
+        }
+        
+       </script>
+   </body>
+</html>
